@@ -6,6 +6,7 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import PrivateRoute from "./PrivateRoute";
 import ForgotPassword from "./pages/ForgotPassword";
+import './assets/App.css'
 
 function App() {
   return (
