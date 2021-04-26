@@ -29,16 +29,16 @@ export default function Login() {
 
   return (
     <>
-      <Card id= "main-background">
+      <Card>
         <Card.Body>
-          <h2 className="text-center mb-4">Log In</h2>
+          <h2 className="text-center mb-4">STEVENS STUDY PLANNER</h2>
           {error && <Alert variant="danger">{error}</Alert>}
           <Form onSubmit={handleSubmit}>
             <Form.Group id="email">
               <Form.Control
                 className="form-input"
                 type="email"
-                placeholder="Email"
+                placeholder="EMAIL"
                 ref={emailRef}
                 required
               />
@@ -46,7 +46,7 @@ export default function Login() {
             <Form.Group id="password">
               <Form.Control
                 type="password"
-                placeholder="Password"
+                placeholder="PASSWORD"
                 ref={passwordRef}
                 required
               />
