@@ -13,7 +13,7 @@ function App() {
     <HashRouter>
       <AuthProvider>
         <Switch>
-          <PrivateRoute exact path="/" component={ControlledBoard} />
+          <PrivateRoute exact path="/" component={ControlledBoard}/>
           <Container className="login-container">
             <div className="inner-container">
               <Route path="/signup" component={Signup} />

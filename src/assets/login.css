@@ -24,6 +24,9 @@
 .links:visited{
     color: #fff19f;
 }
+.links:link{
+    color: #fff19f;
+}
 .text-center2{
     line-height: 0mm;
     color: white;
