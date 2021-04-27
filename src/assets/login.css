@@ -14,18 +14,22 @@
 }
 .form-input {
     background-color: #406df5;
+    color: white;
 }
 .form-input-password{
     background-color: #406df5;
+    color: white;
 }
 #title{
     color: #F2994A;
 }
 .links:visited{
     color: #fff19f;
+    text-decoration-line: none;
 }
 .links:link{
     color: #fff19f;
+    text-decoration-line: none;
 }
 .text-center2{
     line-height: 0mm;
