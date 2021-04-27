@@ -27,16 +27,20 @@ export default function ForgotPassword() {
     setLoading(false);
   }
 
+  document.body.style.backgroundColor = "#2148C0"
+
   return (
     <>
-      <Card>
+      <Card className="body">
         <Card.Body>
-          <h2 className="text-center mb-4">Password Reset</h2>
+          <h2 className="text-center mb-4"><span id="password">PASSWORD</span></h2>
+          <h2 id="reset">RESET</h2>
           {error && <Alert variant="danger">{error}</Alert>}
           {message && <Alert variant="success">{message}</Alert>}
           <Form onSubmit={handleSubmit}>
             <Form.Group id="email">
               <Form.Control
+                className="form-input"
                 type="email"
                 placeholder="Email"
                 ref={emailRef}
@@ -53,13 +57,14 @@ export default function ForgotPassword() {
             </Link>
           </div>
         </Card.Body>
-      </Card>
+      
       <div className="w-100 text-center mt-2">
         Need an account?{" "}
         <Link className="links" to="/signup">
           Sign Up
         </Link>
       </div>
+      </Card>
     </>
   );
 }

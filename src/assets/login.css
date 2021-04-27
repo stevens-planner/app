@@ -1,13 +1,46 @@
-body {
+.body{
     background-color: #2148C0;
     text-align: center;
-    margin-top: 300px;
+    zoom: 150%;
+    margin-top: 200px;
 }
-h2{
+.text-center{
     color:white;
-
+    line-height: 0mm;
 }
-button{
+.w-100{
     margin-top: 20px;
-    padding: 3px 10px;
+    padding: 4px 10px;
+}
+.form-input {
+    background-color: #406df5;
+}
+.form-input-password{
+    background-color: #406df5;
+}
+#title{
+    color: #F2994A;
+}
+.links:visited{
+    color: #fff19f;
+}
+.text-center2{
+    line-height: 0mm;
+    color: white;
+}
+#sign{
+    color: #F2994A;
+    line-height: 0mm;
+}
+#up{
+    color:white;
+    line-height: 0mm;
+}
+#password{
+    color: #F2994A;
+    line-height: 0mm;
+}
+#reset{
+    color: white;
+    line-height: 0mm;
 }

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Board, { moveCard } from "@lourenci/react-kanban";
 import "./DragComponent.css";
 
+
 const board = {
   columns: [
     {
@@ -78,7 +79,7 @@ function ControlledBoard() {
     const updatedBoard = moveCard(controlledBoard, source, destination);
     setBoard(updatedBoard);
   }
-
+  document.body.style.backgroundColor = "white"
   return (
     <Board onCardDragEnd={handleCardMove} disableColumnDrag>
       {controlledBoard}

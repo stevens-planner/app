@@ -32,15 +32,18 @@ export default function Signup() {
     setLoading(false);
   }
 
+  document.body.style.backgroundColor = "#2148C0"
+
   return (
     <>
-      <Card>
+      <Card className="body">
         <Card.Body>
-          <h2 className="text-center mb-4">Sign Up</h2>
+          <h2 className="text-center mb-4"><span id="sign">SIGN </span><span id="up">UP</span></h2>
           {error && <Alert variant="danger">{error}</Alert>}
           <Form onSubmit={handleSubmit}>
             <Form.Group id="email">
               <Form.Control
+                className="form-input"
                 type="email"
                 placeholder="Email"
                 ref={emailRef}
@@ -49,6 +52,7 @@ export default function Signup() {
             </Form.Group>
             <Form.Group id="password">
               <Form.Control
+                className="form-input-password"
                 type="password"
                 placeholder="Password"
                 ref={passwordRef}
@@ -57,6 +61,7 @@ export default function Signup() {
             </Form.Group>
             <Form.Group id="password-confirm">
               <Form.Control
+                className="form-input-password"
                 type="password"
                 placeholder="Password Confirmation"
                 ref={passwordConfirmRef}
@@ -68,13 +73,14 @@ export default function Signup() {
             </Button>
           </Form>
         </Card.Body>
-      </Card>
+      
       <div className="w-100 text-center mt-2">
         Already have an account?{" "}
         <Link className="links" to="/login">
           Log In
         </Link>
       </div>
+      </Card>
     </>
   );
 }
