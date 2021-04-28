@@ -1,53 +1,67 @@
-.body{
-    background-color: #2148C0;
-    text-align: center;
-    zoom: 150%;
-    margin-top: 200px;
+.body {
+  background-color: #2148c0;
+  text-align: center;
+  zoom: 150%;
+  margin-top: 180px;
 }
-.text-center{
-    color:white;
-    line-height: 0mm;
+.text-center {
+  color: white;
+  line-height: 0mm;
 }
-.w-100{
-    margin-top: 20px;
-    padding: 4px 10px;
+.w-100 {
+  margin-top: 20px;
+  padding: 4px 10px;
 }
-.form-input {
-    background-color: #406df5;
-    color: white;
+.form-input,
+.form-control,
+::placeholder {
+  background-color: #406df5;
+  color: white !important;
+  padding: 4px 4px 4px 4px;
+  margin-top: 10px;
+  border-radius: 35px;
+  border-width: 0;
 }
-.form-input-password{
-    background-color: #406df5;
-    color: white;
+
+.form-input-password {
+  background-color: #406df5;
+  color: white;
 }
-#title{
-    color: #F2994A;
+#title {
+  color: #f2994a;
 }
-.links:visited{
-    color: #fff19f;
-    text-decoration-line: none;
+.links:visited {
+  color: #fff19f;
+  text-decoration-line: none;
 }
-.links:link{
-    color: #fff19f;
-    text-decoration-line: none;
+.links:link {
+  color: #fff19f;
+  text-decoration-line: none;
 }
-.text-center2{
-    line-height: 0mm;
-    color: white;
+.text-center2 {
+  line-height: 0mm;
+  color: white;
 }
-#sign{
-    color: #F2994A;
-    line-height: 0mm;
+#sign {
+  color: #f2994a;
+  line-height: 0mm;
 }
-#up{
-    color:white;
-    line-height: 0mm;
+#up {
+  color: white;
+  line-height: 0mm;
 }
-#password{
-    color: #F2994A;
-    line-height: 0mm;
+#password {
+  color: #f2994a;
+  line-height: 0mm;
 }
-#reset{
-    color: white;
-    line-height: 0mm;
+#reset {
+  color: white;
+  line-height: 0mm;
+}
+
+button {
+  background-color: #f2994a;
+  border-radius: 35px;
+  padding: 5px 5px 5px 5px;
+  border-width: 0;
 }

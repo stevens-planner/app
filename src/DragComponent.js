@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import Board, { moveCard } from "@lourenci/react-kanban";
 import "./DragComponent.css";
-
+import firebase from "firebase/app";
+import "firebase/database";
+import "firebase/auth";
 
 const board = {
   columns: [
@@ -78,12 +80,34 @@ function ControlledBoard() {
   function handleCardMove(_card, source, destination) {
     const updatedBoard = moveCard(controlledBoard, source, destination);
     setBoard(updatedBoard);
+
+    const id = firebase.auth().currentUser.uid;
+
+    firebase
+      .database()
+      .ref("users/" + id)
+      .set({
+        updatedBoard,
+      });
   }
-  document.body.style.backgroundColor = "white"
+
+  function updateBoard() {
+    const id = firebase.auth().currentUser.uid;
+    firebase
+      .database()
+      .ref("users/" + id + "/updatedBoard")
+      .on("value", (snapshot) => {
+        const data = snapshot.val();
+        setBoard(data);
+      });
+  }
+
   return (
-    <Board onCardDragEnd={handleCardMove} disableColumnDrag>
-      {controlledBoard}
-    </Board>
+    <div>
+      <h1>Stevens Study Planner</h1>
+      <Board onCardDragEnd={handleCardMove}>{controlledBoard}</Board>
+      <button onClick={updateBoard}>Update</button>
+    </div>
   );
 }
 
