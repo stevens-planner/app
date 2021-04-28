@@ -7,17 +7,17 @@ export const board = {
         {
           id: 1,
           title: "CH115 - General Chemistry I",
-          description: 3,
+          //description: 3,
         },
         {
           id: 2,
           title: "MA121: Differential Calculus",
-          description: 2,
+          // description: 2,
         },
         {
           id: 3,
           title: "E120 - Engineering Graphics",
-          description: 1,
+          // description: 1,
         },
       ],
     },
@@ -52,7 +52,7 @@ export const board = {
       title: "Semester 2",
       cards: [
         {
-          id: 1000,
+          id: 10200,
           title: "PEP111 - Mechanics",
           description: 3,
         },
@@ -67,7 +67,7 @@ export const board = {
           description: 2,
         },
         {
-          id: 1111,
+          id: 11121,
           title: "Surfaces MA124 - Calculus of Two Variables",
           description: 2,
         },
@@ -76,6 +76,11 @@ export const board = {
           title: "CAL 105 - Knowledge, Nature, Culture",
           description: 2,
         },
+        {
+          id: 9090780,
+          title: "SCIENCE ELECTIVE",
+          description: 3,
+        },
       ],
     },
     {
@@ -83,7 +88,7 @@ export const board = {
       title: "Semester 3",
       cards: [
         {
-          id: 120000,
+          id: 1200300,
           title: "MA221 - Differential Equations",
           description: 4,
         },
@@ -98,7 +103,7 @@ export const board = {
           description: 3,
         },
         {
-          id: 1198988,
+          id: 11928988,
           title: "E245 - Circuits and Systems",
           description: 3,
         },
@@ -107,6 +112,11 @@ export const board = {
           title: "E231 - Engineering Design III",
           description: 2,
         },
+        {
+          id: 101674,
+          title: "HUMANITIES ELECTIVE",
+          description: 3,
+        },
       ],
     },
     {
@@ -114,23 +124,33 @@ export const board = {
       title: "Semester 4",
       cards: [
         {
-          id: 120006890,
+          id: 1200068908880,
           title: "MA134 5 - Discrete Math",
           description: 3,
         },
         {
-          id: 13856898,
+          id: 1385689811111,
           title: "E232 - Engineering Design IV",
           description: 3,
         },
         {
-          id: 11984943,
+          id: 1198494311,
           title: "E234 - Thermodynamics",
           description: 3,
         },
         {
           id: 110989988,
           title: "SSW215 - Individual Software Engineering",
+          description: 3,
+        },
+        {
+          id: 9876090780,
+          title: "SCIENCE ELECTIVE w/ LAB",
+          description: 4,
+        },
+        {
+          id: 10167999794,
+          title: "HUMANITIES ELECTIVE",
           description: 3,
         },
       ],
@@ -140,7 +160,7 @@ export const board = {
       title: "Semester 5",
       cards: [
         {
-          id: 1020006890,
+          id: 10200026890,
           title: "ISE 350 - Logistics and Supply Chain Management",
           description: 4,
         },
@@ -150,18 +170,126 @@ export const board = {
           description: 3,
         },
         {
-          id: 101984943,
+          id: 101984943991111111111,
           title: "E321 - Engineering Design V",
           description: 2,
         },
         {
-          id: 1810989988,
+          id: 18109899881154,
           title: "E243 - Probability & Statistics",
           description: 3,
         },
         {
           id: 1810989988,
           title: "SSW 315 - Object-based Software Development",
+          description: 3,
+        },
+        {
+          id: 1016799983794,
+          title: "HUMANITIES ELECTIVE",
+          description: 3,
+        },
+      ],
+    },
+    {
+      id: 7,
+      title: "Semester 6",
+      cards: [
+        {
+          id: 10200068906,
+          title: "SSW 345 - Model-based Software Engineering",
+          description: 3,
+        },
+        {
+          id: 1038568986,
+          title: "E355 - Engineering Economics",
+          description: 4,
+        },
+        {
+          id: 101984943707,
+          title: "SSW 322 - Engineering Design VI",
+          description: 2,
+        },
+        {
+          id: 181093899808,
+          title: "IDE 400 - Senior Innovation I",
+          description: 1,
+        },
+        {
+          id: 18871039899808,
+          title: "DOMAIN ELECTIVE",
+          description: 3,
+        },
+        {
+          id: 183871098799808,
+          title: "GENERAL ELECTIVE",
+          description: 3,
+        },
+      ],
+    },
+    {
+      id: 8,
+      title: "Semester 7",
+      cards: [
+        {
+          id: 1020300689069111,
+          title: "SSW 555 - Agile Methods for Software Development",
+          description: 3,
+        },
+        {
+          id: 10385368986901000,
+          title: "SSW 567 - Software Testing and Quality Assurance",
+          description: 3,
+        },
+        {
+          id: 101398476943779700,
+          title: "IDE 401 - Senior Innovation II",
+          description: 1,
+        },
+        {
+          id: 18871039877876799808,
+          title: "DOMAIN ELECTIVE",
+          description: 3,
+        },
+        {
+          id: 18871093332658799808987,
+          title: "GENERAL ELECTIVE",
+          description: 3,
+        },
+      ],
+    },
+    {
+      id: 9,
+      title: "Semester 8",
+      cards: [
+        {
+          id: 102003068980690097986775764,
+          title: "SSW 533 - Software Estimation and Metrics",
+          description: 3,
+        },
+        {
+          id: 1038056444844898600875875858658765,
+          title: "SYS 581 - Systems Engineering Architecture",
+          description: 3,
+        },
+        {
+          id: 1010009847309437798696897687687685765757,
+          title: "SSW 424 - Engineering Design VIII",
+          description: 1,
+        },
+        {
+          id: 1887109807793434354534535345345535355359808,
+          title: "IDE 402 - Senior Innovation III",
+          description: 3,
+        },
+        {
+          id: 1887103933328793453453453453453453534534534598089,
+          title: "GENERAL ELECTIVE",
+          description: 3,
+        },
+        {
+          id: 188710983900993345345345345345354345345345435435453453456808,
+          title: "DOMAIN ELECTIVE",
           description: 3,
         },
       ],

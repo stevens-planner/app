@@ -39,7 +39,6 @@ function ControlledBoard() {
       <h1>Stevens Study Planner</h1>
       <button onClick={updateBoard}>Update</button>
       <Board onCardDragEnd={handleCardMove}>{controlledBoard}</Board>
-      {/*<button onClick={setInitialBoard}>Send</button>*/}
     </div>
   );
 }
