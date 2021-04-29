@@ -9,6 +9,8 @@ import "firebase/auth";
 function ControlledBoard() {
   const [controlledBoard, setBoard] = useState(board);
 
+  const userEmail = firebase.auth().currentUser.email;
+
   function handleCardMove(_card, source, destination) {
     const updatedBoard = moveCard(controlledBoard, source, destination);
     setBoard(updatedBoard);
@@ -37,6 +39,7 @@ function ControlledBoard() {
   return (
     <div>
       <h1>Stevens Study Planner</h1>
+      <h4>Welcome, {userEmail}</h4>
       <button onClick={updateBoard}>Update</button>
       <Board onCardDragEnd={handleCardMove}>{controlledBoard}</Board>
     </div>
