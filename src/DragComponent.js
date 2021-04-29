@@ -33,7 +33,7 @@ function ControlledBoard() {
         setBoard(data);
       });
   }
-
+  document.body.style.backgroundColor = "#ffffff";
   return (
     <div>
       <h1>Stevens Study Planner</h1>
