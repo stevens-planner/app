@@ -1,5 +1,5 @@
 .react-kanban-column {
-  background-color: #f2f2f2;
+  background-color: #FDEFCD;
   padding: 20px 20px 20px 20px;
   margin: 20px 20px 20px 20px;
   min-height: 300px !important;
@@ -9,8 +9,46 @@
   margin: 10px 0 10px 0;
   padding: 20px 20px 20px 20px;
   background-color: white;
+  
 }
 
 [data-rbd-droppable-context-id="0"] {
   white-space: pre-wrap !important;
+}
+
+.text-title{
+  color: #2148c0;
+  line-height: 0mm;
+  text-align: center;
+  font-size: 45px;
+  font-family: fantasy;
+  margin-top: 25mm;
+}
+
+.text-title2{
+  color: #2148c0;
+  line-height: 0mm;
+  text-align: center;
+  font-size: 60px;
+}
+#container{
+  margin-top: 50px;
+}
+#welcome{
+  color: #2148c0;
+  font-size: 25px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.react-kanban-column-header{
+  color: #2148c0;
+  font-size: 25px;
+  font-style: oblique;
+  font-weight: bold;
+}
+#welcome2{
+  color: #f2994a;
+  text-decoration-line: underline;
+  text-decoration-color: #2148c0;
+  line-height: 5mm;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

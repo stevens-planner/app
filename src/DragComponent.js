@@ -54,8 +54,11 @@ function ControlledBoard() {
   document.body.style.backgroundColor = "#ffffff";
   return (
     <div>
-      <h1>Stevens Study Planner</h1>
-      <h4>Welcome, {userEmail}</h4>
+      <div id="container">
+        <h2 className="text-title"><span id="title">STEVENS</span> STUDY</h2>
+        <h1 className="text-title2">PLANNER</h1>
+      </div>
+      <h3 id="welcome">Welcome, {userEmail}! Start developing your study plan today with <span id="welcome2">Stevens Study Planner.</span></h3>
       <button onClick={updateBoard}>View My Plan</button>
       <Link>
         <button onClick={signOut}>Logout</button>
