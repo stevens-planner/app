@@ -1,22 +1,22 @@
 .react-kanban-column {
-  background-color: #FDEFCD;
+  background-color: #fdefcd;
   padding: 20px 20px 20px 20px;
   margin: 20px 20px 20px 20px;
   min-height: 300px !important;
+  width: 320px;
 }
 
 .react-kanban-card {
   margin: 10px 0 10px 0;
   padding: 20px 20px 20px 20px;
   background-color: white;
-  
 }
 
 [data-rbd-droppable-context-id="0"] {
   white-space: pre-wrap !important;
 }
 
-.text-title{
+.text-title {
   color: #2148c0;
   line-height: 0mm;
   text-align: center;
@@ -25,30 +25,71 @@
   margin-top: 25mm;
 }
 
-.text-title2{
+.text-title2 {
   color: #2148c0;
   line-height: 0mm;
   text-align: center;
   font-size: 60px;
 }
-#container{
+#container {
   margin-top: 50px;
 }
-#welcome{
+#welcome {
   color: #2148c0;
   font-size: 25px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.react-kanban-column-header{
+.react-kanban-column-header {
   color: #2148c0;
   font-size: 25px;
   font-style: oblique;
   font-weight: bold;
+  margin-bottom: 5px;
 }
-#welcome2{
+#welcome2 {
   color: #f2994a;
   text-decoration-line: underline;
   text-decoration-color: #2148c0;
   line-height: 5mm;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.react-kanban-card__description {
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.signout-button,
+.plan-button,
+.dropdown-toggle {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+.dashboard {
+  text-align: center;
+}
+
+#welcome {
+  line-height: 1.5;
+}
+
+.dropdown-item {
+  text-align: left;
+  color: black;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.dropdown-menu {
+  text-align: left;
+  line-height: 1.4;
+  padding: 15px 20px 15px 20px;
+  background-color: #f2994a;
+  border-radius: 25px;
+  margin-top: 10px;
 }
