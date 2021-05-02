@@ -73,17 +73,11 @@ function ControlledBoard() {
         </h2>
         <h1 className="text-title2">PLANNER</h1>
       </div>
+
       <h3 id="welcome">
         Welcome, {userEmail}! <br></br>Start developing your study plan today
         with <span id="welcome2">Stevens Study Planner.</span>
       </h3>
-      <button className="plan-button" onClick={updateBoard}>
-        View My Plan
-      </button>
-
-      <button className="signout-button" onClick={signOut}>
-        Logout
-      </button>
 
       <Dropdown>
         <Dropdown.Toggle variant="success" id="dropdown-basic">
@@ -98,6 +92,14 @@ function ControlledBoard() {
           <Dropdown.Item onClick={compSci}>Computer Science</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
+
+      <button className="plan-button" onClick={updateBoard}>
+        View My Plan
+      </button>
+
+      <button className="signout-button" onClick={signOut}>
+        Logout
+      </button>
 
       <Board onCardDragEnd={handleCardMove}>{controlledBoard}</Board>
     </div>

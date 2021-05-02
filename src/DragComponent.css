@@ -77,6 +77,9 @@
   line-height: 1.5;
 }
 
+.dropdown {
+  display: inline;
+}
 .dropdown-item {
   text-align: left;
   font-size: smaller;
@@ -93,4 +96,28 @@
   background-color: #f2994a;
   border-radius: 25px;
   margin-top: 10px;
+}
+
+#column-draggable-1 {
+  background-color: #fdefcd;
+}
+
+[data-rbd-draggable-id="column-draggable-2"],
+[data-rbd-draggable-id="column-draggable-3"] {
+  background-color: #f2f2f2;
+}
+
+[data-rbd-draggable-id="column-draggable-4"],
+[data-rbd-draggable-id="column-draggable-5"] {
+  background-color: #ffe1e1;
+}
+
+[data-rbd-draggable-id="column-draggable-6"],
+[data-rbd-draggable-id="column-draggable-7"] {
+  background-color: #caf3e9;
+}
+
+[data-rbd-draggable-id="column-draggable-8"],
+[data-rbd-draggable-id="column-draggable-9"] {
+  background-color: #cae9f3;
 }
