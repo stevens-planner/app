@@ -19,6 +19,11 @@ export const board = {
           title: "E120 - Engineering Graphics",
           description: "Credit: 1",
         },
+        {
+          id: 3670,
+          title: "MA122 - Integral Calculus",
+          description: "Credit: 2",
+        },
       ],
     },
     {
@@ -593,7 +598,7 @@ export const board2 = {
         },
         {
           id: 188710983900993345345345345345354345345345435435453453456808,
-          title: "DOMAIN ELECTIVE",
+          title: "Humanities ELECTIVE",
           description: "Credit: 3",
         },
       ],

@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import Board, { moveCard } from "@lourenci/react-kanban";
-import { Link } from "react-router-dom";
 
 import { board, board2 } from "./CourseData";
 import "./DragComponent.css";
 import firebase from "firebase/app";
 import "firebase/database";
 import "firebase/auth";
-import { Button, Dropdown } from "react-bootstrap";
+import { Dropdown } from "react-bootstrap";
 
 function ControlledBoard() {
   const [controlledBoard, setBoard] = useState(board);
@@ -19,7 +18,7 @@ function ControlledBoard() {
       .signOut()
       .then(
         function () {
-          // Sign-out successful.
+          console.log("Sign out successful!");
         },
         function (error) {
           // An error happened.
@@ -52,11 +51,20 @@ function ControlledBoard() {
       });
   }
 
-  function majorSelector() {
+  function compE() {
+    setBoard(board2);
+  }
+
+  function civilE() {
+    setBoard(board2);
+  }
+
+  function compSci() {
     setBoard(board2);
   }
 
   document.body.style.backgroundColor = "#ffffff";
+
   return (
     <div className="dashboard">
       <div id="container">
@@ -83,13 +91,11 @@ function ControlledBoard() {
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
-          <Dropdown.Item onClick={majorSelector}>
-            Computer Engineering
-          </Dropdown.Item>
+          <Dropdown.Item onClick={compE}>Computer Engineering</Dropdown.Item>
           <br></br>
-          <Dropdown.Item href="#/action-2">Civil Engineering</Dropdown.Item>
+          <Dropdown.Item onClick={civilE}>Civil Engineering</Dropdown.Item>
           <br></br>
-          <Dropdown.Item href="#/action-3">Computer Science</Dropdown.Item>
+          <Dropdown.Item onClick={compSci}>Computer Science</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
 
