@@ -247,6 +247,11 @@ export const board = {
           description: "Credit: 3",
         },
         {
+          id: 1038536898690100098,
+          title: "SSW 423 - Engineering Design VII",
+          description: "Credit: 3",
+        },
+        {
           id: 101398476943779700,
           title: "IDE 401 - Senior Innovation II",
           description: "Credit: 1",
@@ -308,11 +313,6 @@ export const board2 = {
       id: 1,
       title: "Transfer Credit",
       cards: [
-        {
-          id: 78,
-          title: "PEP 120 - Intro to Astronomy",
-          description: "Credit: 3",
-        },
         {
           id: 1,
           title: "CH115 - General Chemistry I",
@@ -449,8 +449,13 @@ export const board2 = {
         },
         {
           id: 110989988,
-          title: "SSW215 - Individual Software Engineering",
+          title: "CPE 360 Computational Data Structures & Algorithms",
           description: "Credit: 3",
+        },
+        {
+          id: 11098998869,
+          title: "CPE 390 Microprocessor Systems",
+          description: "Credit: 4",
         },
         {
           id: 9876090780,
@@ -470,7 +475,7 @@ export const board2 = {
       cards: [
         {
           id: 10200026890,
-          title: "ISE 350 - Logistics and Supply Chain Management",
+          title: "EE 471 Transport Phenomena in Solid State Devices",
           description: "Credit: 4",
         },
         {
@@ -490,7 +495,7 @@ export const board2 = {
         },
         {
           id: 1810989988,
-          title: "SSW 315 - Object-based Software Development",
+          title: "CPE 490 Information Systems Engineering I",
           description: "Credit: 3",
         },
         {
@@ -506,7 +511,7 @@ export const board2 = {
       cards: [
         {
           id: 10200068906,
-          title: "SSW 345 - Model-based Software Engineering",
+          title: "CPE 345 Modeling and Simulation",
           description: "Credit: 3",
         },
         {
@@ -516,18 +521,18 @@ export const board2 = {
         },
         {
           id: 101984943707,
-          title: "SSW 322 - Engineering Design VI",
+          title: "CPE 322 Engineering Design VI",
           description: "Credit: 2",
+        },
+        {
+          id: 1019849437076789,
+          title: "CPE 462 Intro. to Image Processing & Coding",
+          description: "Credit: 3",
         },
         {
           id: 181093899808,
           title: "IDE 400 - Senior Innovation I",
           description: "Credit: 1",
-        },
-        {
-          id: 18871039899808,
-          title: "DOMAIN ELECTIVE",
-          description: "Credit: 3",
         },
         {
           id: 183871098799808,
@@ -542,12 +547,12 @@ export const board2 = {
       cards: [
         {
           id: 1020300689069111,
-          title: "SSW 555 - Agile Methods for Software Development",
+          title: "CPE 487 Digital System Design",
           description: "Credit: 3",
         },
         {
           id: 10385368986901000,
-          title: "SSW 567 - Software Testing and Quality Assurance",
+          title: "CPE 423 Engineering Design VII",
           description: "Credit: 3",
         },
         {
@@ -557,7 +562,12 @@ export const board2 = {
         },
         {
           id: 18871039877876799808,
-          title: "DOMAIN ELECTIVE",
+          title: "TECHNICAL ELECTIVE",
+          description: "Credit: 3",
+        },
+        {
+          id: 1887103987787679980878,
+          title: "TECHNICAL ELECTIVE",
           description: "Credit: 3",
         },
         {
@@ -573,18 +583,18 @@ export const board2 = {
       cards: [
         {
           id: 102003068980690097986775764,
-          title: "SSW 533 - Software Estimation and Metrics",
+          title: "TECHNICAL ELECTIVE",
           description: "Credit: 3",
         },
         {
           id: 1038056444844898600875875858658765,
-          title: "SYS 581 - Systems Engineering Architecture",
+          title: "TECHNICAL ELECTIVE",
           description: "Credit: 3",
         },
         {
           id: 1010009847309437798696897687687685765757,
-          title: "SSW 424 - Engineering Design VIII",
-          description: "Credit: 1",
+          title: "CPE 424 Senior Design VIII",
+          description: "Credit: 3",
         },
         {
           id: 1887109807793434354534535345345535355359808,
@@ -598,7 +608,7 @@ export const board2 = {
         },
         {
           id: 188710983900993345345345345345354345345345435435453453456808,
-          title: "Humanities ELECTIVE",
+          title: "HUMANITIES ELECTIVE",
           description: "Credit: 3",
         },
       ],
