@@ -121,3 +121,13 @@
 [data-rbd-draggable-id="column-draggable-9"] {
   background-color: #cae9f3;
 }
+
+@media screen and (max-width: 555px) {
+  .text-title {
+    font-size: 35px;
+  }
+
+  #welcome {
+    font-size: 20px;
+  }
+}

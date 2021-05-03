@@ -328,6 +328,11 @@ export const board2 = {
           title: "E120 - Engineering Graphics",
           description: "Credit: 1",
         },
+        {
+          id: 3670,
+          title: "MA122 - Integral Calculus",
+          description: "Credit: 2",
+        },
       ],
     },
     {

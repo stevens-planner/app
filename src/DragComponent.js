@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Board, { moveCard } from "@lourenci/react-kanban";
-
 import { board, board2 } from "./CourseData";
 import "./DragComponent.css";
 import firebase from "firebase/app";
@@ -51,11 +50,11 @@ function ControlledBoard() {
       });
   }
 
-  function compE() {
-    setBoard(board2);
+  function softE() {
+    setBoard(board);
   }
 
-  function civilE() {
+  function compE() {
     setBoard(board2);
   }
 
@@ -87,7 +86,7 @@ function ControlledBoard() {
         <Dropdown.Menu>
           <Dropdown.Item onClick={compE}>Computer Engineering</Dropdown.Item>
           <br></br>
-          <Dropdown.Item onClick={civilE}>Civil Engineering</Dropdown.Item>
+          <Dropdown.Item onClick={softE}>Software Engineering</Dropdown.Item>
           <br></br>
           <Dropdown.Item onClick={compSci}>Computer Science</Dropdown.Item>
         </Dropdown.Menu>
