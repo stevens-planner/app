@@ -2,7 +2,7 @@
   background-color: #2148c0;
   text-align: center;
   zoom: 150%;
-  margin-top: 180px;
+  margin-top: 160px;
 }
 .text-center {
   color: white;
@@ -64,5 +64,4 @@ button {
   border-radius: 35px;
   padding: 5px 5px 5px 5px;
   border-width: 0;
-  
 }
